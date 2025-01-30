@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Markdown</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="md.css">
+</head>
+<body>
+    <!-- Título do artigo -->
+    <header>
+        <h1>Markdown</h1>
+    </header>
+
+    <!-- Conteúdo -->
+    <main>
+        <article>
+            <header>
+                <h1>Sintaxe</h1>
+            </header>
+            <section>
+                <h2>Hierarquia de títulos</h2>
+                <p>Existem 6 níveis de títulos. Você pode usar <code>#</code> para definir os títulos. Basta apenas colocar quantidade de <code>#</code> em até seis de acordo com nível. Como no exemplo:</p>
+
+                <div class="code-block">
+                    <p># Meu título de nível 1</p>
+                    <p>Este é um exemplo de primeiro parágrafo.</p>
+                    
+                    <p>## Meu título de nível 2 </p>
+                    <p>Este é um exemplo de segundo parágrafo. </p>
+                    
+                    <p>### Meu título de nível 3 </p>
+                    <p>Este é um exemplo de terceiro parágrafo.</p>
+                </div>
+
+                <p>Ficando assim:</p>
+                
+                <div class="markdown">
+                    <h1>Meu título de nível 1</h1>
+                    <p>Este é um exemplo de primeiro parágrafo.</p>
+                
+                    <h2>Meu título de nível 2 </h2>
+                    <p>Este é um exemplo de segundo parágrafo.</p>
+
+                    <h3>Meu título de nível 3</h3>
+                    <p>Este é um exemplo de terceiro parágrafo.</p>
+                </div>
+            </section>
+
+            <section>
+                <h2>Estilo de texto</h2>
+                <p>Você pode usar estilos como: itálico, negrito e sublinhando.</p>
+
+                <div class="code-block">
+                    <p>Este texto está em _itálico_ ou *itálico*</p>
+                    <p>Este texto está em __negrito__ ou **negrito**</p>
+                    <p>Este texto é ***importante***</p>
+                    <p>Este texto está ~~tachado~~</p>
+                    <p>Texto &lt;sub&gt;sobrescrito&lt;/sub&gt;</p>
+                    <p>Texto &lt;ins&gt;sublinhado&lt;/ins&gt;</p>
+                </div>
+
+                <p>Ficando assim:</p>
+                <div class="markdown">
+                    <p>Este texto está em <em>itálico</em> ou <em>itálico</em></p>
+                    <p>Este texto está em <strong>negrito</strong> ou <strong>negrito</strong></p>
+                    <p>Este texto é <em><strong>importante</strong></em></p>
+                    <p>Este texto está <del>tachado</del></p>
+                    <p>Texto <sub>sobrescrito</sub></p>
+                    <p>Texto <ins>sublinhado</ins></p>
+                </div>
+
+            </section>
+        </article>
+    </main>
+
+    <!-- Rodapé -->
+     
+    <footer>
+        <!-- Fontes -->
+        &copy; 2025 Guia de Markdown
+        Referência: <a href="https://docs.github.com/pt/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#further-reading">Documentação do GitHub sobre Markdown
+    </footer>
+    
+</body>
+</html>
